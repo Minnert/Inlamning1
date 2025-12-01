@@ -1,4 +1,6 @@
 INLÄMNING1 - William Minnert - YH2025 - En liten bokhandel
+
+
 Detta projekt innehåller en liten relationsdatabas för en bokhandel. Databasen består av fyra tabeller: Kund, Bok, Beställning och Orderrad.
 
 Syftet är att lagra information om:

@@ -15,8 +15,6 @@ Syftet med databasen är att lagra information om:
 - vilka beställningar som har gjorts
 - vilka böcker och antal som ingår i varje beställning
 
-**Jag har gjort ett medvetet val att sätta ISBN som VARCHAR(20) pågrund av att det är ett ID, som kan innehålla bindestreck och ID behandlas generellt sett bättre av VARCHAR än t.ex BIGINT eller INT.**
-
 ## ER-diagram
 
 ER-diagrammet visar följande relationer:
@@ -36,7 +34,7 @@ Den löser en många-till-många-relation:
 - En *beställning* kan innehålla flera *böcker*
 - En *bok* kan finnas i flera *beställningar*
 
-Genom att lägga den relationen i en egen tabell (Orderrad) blir modellen normaliserad och flexibel.
+**Jag har gjort ett medvetet val att sätta ISBN som VARCHAR(20) pågrund av att det är ett ID, som kan innehålla bindestreck och ID behandlas generellt sett bättre av VARCHAR än t.ex BIGINT eller INT.**
 
 ER-diagram
 <img width="1422" height="1036" alt="ER Diagram WIlliam Minnert YH2025" src="https://github.com/user-attachments/assets/3031e601-4a10-4fc9-8386-d6c6bcaf97ba" />

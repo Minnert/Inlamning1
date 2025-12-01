@@ -15,7 +15,7 @@ Syftet med databasen är att lagra information om:
 - vilka beställningar som har gjorts
 - vilka böcker och antal som ingår i varje beställning
 
----
+**Jag har gjort ett medvetet val att sätta ISBN som VARCHAR(20) pågrund av att det är ett ID, som kan innehålla bindestreck och ID behandlas generellt sett bättre av VARCHAR än t.ex BIGINT eller INT.**
 
 ## ER-diagram
 

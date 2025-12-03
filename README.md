@@ -31,8 +31,8 @@ ER-diagrammet visar följande relationer:
 Tabellen **Orderrad** fungerar därmed som en kopplingstabell mellan **Beställning** och **Bok**.  
 Den löser en många-till-många-relation:
 
-- En *beställning* kan innehålla flera *böcker*
-- En *bok* kan finnas i flera *beställningar*
+- En **beställning** kan innehålla flera **böcker**
+- En **bok** kan finnas i flera **beställningar**
 
 **Jag har gjort ett medvetet val att sätta ISBN som VARCHAR(20) pågrund av att det är ett ID, som kan innehålla bindestreck och ID behandlas generellt sett bättre av VARCHAR än t.ex BIGINT eller INT.**
 
